@@ -2,5 +2,12 @@
     "java.project.sourcePaths": [
         "src"
     ],
-    "java.project.outputPath": "build"
+    "java.project.outputPath": "build",
+    "java.completion.filteredTypes": [
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ]
 }
